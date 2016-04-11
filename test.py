@@ -1,9 +1,9 @@
-from pytrace.trace import *
+from pytrace.trace import trace
 
 from axioms import *
 from definitions import *
 
-@trace(show_counter=False, show_types=False)
+@trace()
 def test_eq(left, right, expected=True):
     result = (left == right)
     assert(result == expected)
