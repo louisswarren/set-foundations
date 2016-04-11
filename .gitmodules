@@ -1,0 +1,3 @@
+[submodule "pytrace"]
+	path = pytrace
+	url = git@github:milesrout/pytrace
